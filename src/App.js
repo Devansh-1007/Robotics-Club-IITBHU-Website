@@ -1,10 +1,14 @@
 import './App.css';
 // import Achievements from './pages/Achievements/Achievements';
+import { Alert } from 'flowbite-react';
 function App() {
   return (
-    <div className="App">
-      <h1>hi</h1>
-      {/* <Achievements /> */}
+    <div>
+      <div className="App">
+        <h1>hi</h1>
+        <Alert>Hi</Alert>
+        {/* <Achievements /> */}
+      </div>
     </div>
   );
 }
